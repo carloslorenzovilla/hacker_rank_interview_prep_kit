@@ -1,0 +1,6 @@
+def rotLeft(a, d):
+    i = 0
+    for j in range(d):        
+        a.append(a.pop(i))
+
+    return a
